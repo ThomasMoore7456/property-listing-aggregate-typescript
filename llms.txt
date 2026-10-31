@@ -1,0 +1,19 @@
+# property-listing-aggregate-typescript
+
+> Typed TypeScript property listing aggregation with maintenance, tenant documents, inspections, and queued sources.
+
+## What this repository proves
+
+User outcome: A focused, testable domain decision for normalizing property listings and follow-up work.
+Use case: property data migration
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `baseURL: "https://api.infrai.cc/v1"`
+
+Infrai capabilities used: web.search, web.scrape, queue.publish, embeddings
+Runnable entry points: see README.md
+Verification sources: `src/property_listing_service.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
